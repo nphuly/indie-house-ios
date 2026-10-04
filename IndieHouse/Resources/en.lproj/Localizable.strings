@@ -1,0 +1,287 @@
+/* Indie House iOS strings, English; keys mirror vi.lproj/Localizable.strings. Read through L() in Localization.swift. */
+
+/* Shared */
+"common.back" = "Back";
+"common.cancel" = "Cancel";
+"common.retry" = "Try again";
+"common.see_all" = "See all";
+"common.clear" = "Clear";
+"common.untitled" = "Untitled";
+"common.selected" = "%@, selected";
+"common.labelled" = "%1$@: %2$@";
+"common.pair" = "%1$@, %2$@";
+"common.read_more" = "Read more";
+"common.show_less" = "Show less";
+"common.about" = "About";
+"common.saved" = "Saved";
+"artist.unknown" = "Unknown artist";
+"kind.album" = "Album";
+"kind.artist" = "Artist";
+"kind.song" = "Song";
+"count.song.one" = "%ld song";
+"count.song.other" = "%ld songs";
+"count.song_long.one" = "%ld song";
+"count.song_long.other" = "%ld songs";
+"count.album.one" = "%ld album";
+"count.album.other" = "%ld albums";
+"count.artist.one" = "%ld artist";
+"count.artist.other" = "%ld artists";
+"count.more_songs.one" = "Show %ld more song";
+"count.more_songs.other" = "Show %ld more songs";
+
+/* Navigation and language */
+"tab.home" = "Home";
+"tab.search" = "Search";
+"tab.browse" = "Browse";
+"tab.library" = "Library";
+"account.settings" = "Account and settings";
+"settings.title" = "Settings";
+"language.label" = "Language";
+"language.vi" = "Tiếng Việt";
+"language.en" = "English";
+"language.hint" = "Applies to this device only.";
+
+/* Start-up, connect and sign-in */
+"startup.opening" = "Opening your library…";
+"startup.failed" = "Couldn't open the library";
+"library.change" = "Change library";
+"session.expired" = "Your session expired. Log in again to keep listening.";
+"connect.title" = "Connect to a library";
+"connect.lede" = "Scan the QR code under Connect a library in the admin panel, or enter the library's HTTPS address.";
+"connect.address" = "Library address";
+"connect.button" = "Connect";
+"connect.checking" = "Checking…";
+"connect.scan" = "Scan QR code";
+"connect.note" = "HTTPS only. You'll confirm the library's name and address before logging in.";
+"connect.confirm_title" = "Connect to %@?";
+"connect.confirm_body" = "%@\n\nOnly continue if this is your Indie House library.";
+"login.title" = "Log in";
+"login.lede" = "Use your Indie House account.";
+"join.title" = "Join this library";
+"join.lede" = "Enter your invitation code, then choose a name and password for the new account.";
+"login.invite_code" = "Invitation code";
+"login.invite_hint" = "The code you received";
+"login.name" = "Display name";
+"login.name_hint" = "Your name";
+"login.email" = "Email";
+"login.email_hint" = "you@example.com";
+"login.password" = "Password";
+"login.show_password" = "Show password";
+"login.hide_password" = "Hide password";
+"login.submit" = "Log in";
+"login.busy" = "Logging in…";
+"join.submit" = "Create account";
+"join.busy" = "Creating account…";
+"login.have_invite" = "I have an invitation";
+"login.have_account" = "I already have an account";
+"login.need_email_password" = "Enter your email and password.";
+"login.need_invite_name" = "Enter the invitation code and a display name.";
+
+/* QR scanner */
+"qr.title" = "Scan the connection code";
+"qr.hint" = "Open the Indie House admin panel, find Connect a library, and hold the code inside the frame.";
+"qr.camera_failed" = "Couldn't open the camera";
+"qr.camera_hint" = "Go back and enter the library's HTTPS address instead.";
+
+/* Player */
+"player.open" = "Open player";
+"player.minimize" = "Minimize player";
+"player.mini_failed" = "Couldn't play. Tap play to try again.";
+"player.playing_from" = "Playing from";
+"player.playing_from_label" = "Playing from %@";
+"player.now_playing" = "Now playing";
+"player.play" = "Play";
+"player.pause" = "Pause";
+"player.play_label" = "Play %@";
+"player.pause_label" = "Pause %@";
+"player.previous" = "Previous";
+"player.next" = "Next";
+"player.shuffle" = "Shuffle";
+"player.shuffle_off" = "Turn off shuffle";
+"player.repeat" = "Repeat";
+"player.repeat_off" = "Repeat: off";
+"player.repeat_all" = "Repeat: all";
+"player.repeat_one" = "Repeat: one song";
+"player.queue" = "Queue";
+"player.track_options" = "Song options";
+"player.failed" = "Couldn't play this song. Tap play to try again.";
+"player.failed_network" = "Couldn't play this song. Check your connection and try again.";
+"player.seek" = "Playback position";
+"player.seek_position" = "%1$@ of %2$@";
+"player.quality.auto" = "128 kbps";
+"player.quality.standard" = "128 kbps";
+"player.quality.high" = "320 kbps";
+"player.quality.lossless" = "320 kbps";
+"player.format.flac" = "FLAC · lossless";
+"player.lossless_unsupported" = "This device can't play lossless, so you're hearing 320 kbps.";
+"player.queue_now" = "Now playing, %@";
+"player.queue_empty" = "Nothing up next. Pick an album or playlist to keep going.";
+
+/* Song menu and playlists */
+"menu.add_to_playlist" = "Add to playlist";
+"menu.play_next" = "Play next";
+"menu.will_play_next" = "Playing next: %@";
+"menu.go_album" = "Go to album";
+"menu.go_artist" = "Go to artist";
+"menu.remove_from_playlist" = "Remove from this playlist";
+"playlist.new" = "New playlist";
+"playlist.public" = "Public";
+"playlist.private" = "Private";
+"playlist.added" = "Added to “%@”";
+"playlist.removed" = "Removed from playlist";
+"playlist.edit" = "Edit playlist";
+"playlist.create" = "New playlist";
+"playlist.create_note" = "Give it a name, add a description if you like, and choose who can see it.";
+"playlist.create_hint" = "Name it and choose who can see it";
+"playlist.name" = "Name";
+"playlist.name_hint" = "e.g. Running mix";
+"playlist.description" = "Description";
+"playlist.optional" = "Optional";
+"playlist.public_hint" = "Everyone in this library can see it.";
+"playlist.save_changes" = "Save changes";
+"playlist.create_and_add" = "Create and add";
+"playlist.saving" = "Saving…";
+"playlist.creating" = "Creating…";
+"playlist.name_too_short" = "The name needs at least 2 characters.";
+"playlist.saved" = "Playlist saved";
+"playlist.created" = "Created “%@”";
+"playlist.delete_title" = "Delete playlist?";
+"playlist.delete_body" = "“%@” will be deleted for good. The songs stay in the library.";
+"playlist.delete" = "Delete playlist";
+"playlist.deleted" = "Playlist deleted";
+"playlist.a11y" = "Playlist %@";
+"playlist.kind_public" = "Public playlist";
+"playlist.kind_private" = "Private playlist";
+"playlist.empty_title" = "This playlist is empty";
+"playlist.empty_body" = "Open a song's menu and choose Add to playlist.";
+"playlist.find_songs" = "Find songs";
+
+/* Devices and account */
+"devices.hint" = "You can revoke access for each device.";
+"devices.none" = "No mobile devices are logged in.";
+"devices.unknown" = "Mobile device";
+"devices.used" = "Used %@";
+"devices.revoke" = "Revoke";
+"devices.revoke_title" = "Revoke this device?";
+"devices.revoke_body" = "The device will have to log in again. If it's this iPhone, you'll go back to the login screen.";
+"devices.revoked" = "Device session revoked.";
+"account.logout" = "Log out";
+"account.logout_title" = "Log out of this iPhone?";
+"account.logout_body" = "Music will stop. The library connection stays, so logging in next time is quicker.";
+"library.change_title" = "Change library?";
+"library.change_body" = "This logs you out and removes the connection to %@ from this device.";
+
+/* Time */
+"time.unknown" = "unknown";
+"time.now" = "just now";
+"time.minutes.one" = "%ld minute ago";
+"time.minutes.other" = "%ld minutes ago";
+"time.hours.one" = "%ld hour ago";
+"time.hours.other" = "%ld hours ago";
+"time.days.one" = "%ld day ago";
+"time.days.other" = "%ld days ago";
+"duration.seconds" = "%ld sec";
+"duration.minutes" = "%ld min";
+"duration.hours_minutes" = "%1$ld hr %2$ld min";
+
+/* Home */
+"greeting.morning" = "Good morning";
+"greeting.noon" = "Hello";
+"greeting.afternoon" = "Good afternoon";
+"greeting.evening" = "Good evening";
+"home.recent" = "Recently played";
+"home.most_played" = "Most played";
+"home.popular" = "Popular";
+"home.open_album" = "Open album";
+"home.new_albums" = "New albums";
+"home.artists" = "Artists";
+"home.empty_title" = "No songs yet";
+"home.empty_body" = "Songs show up here once an admin uploads music.";
+
+/* Search */
+"search.placeholder" = "Search songs, artists, albums";
+"search.clear_query" = "Clear search";
+"search.failed" = "Search isn't working right now";
+"search.recent" = "Recent searches";
+"search.genres" = "Genres";
+"search.start_title" = "Find music";
+"search.start_body" = "Search by song, artist, album or genre.";
+"search.no_results_title" = "No results for “%@”";
+"search.no_results_body" = "Check the spelling or try another search.";
+"search.filter.all" = "All";
+"search.filter.songs" = "Songs";
+"search.filter.artists" = "Artists";
+"search.filter.albums" = "Albums";
+"search.context" = "Search “%@”";
+"search.top_result" = "Top result";
+
+/* Browse, library and detail pages */
+"browse.new_tracks" = "Recently added";
+"browse.albums" = "Albums";
+"browse.artists" = "Artists";
+"browse.no_albums" = "No albums yet";
+"browse.no_artists" = "No artists yet";
+"browse.load_more" = "Load more";
+"browse.loading" = "Loading…";
+"browse.end" = "That's all %@";
+"library.playlists" = "Playlists";
+"library.history" = "Listening history";
+"library.history_empty_title" = "No listening history yet";
+"library.history_empty_body" = "Songs you play on the Leap, iPhone or web show up here.";
+"album.empty" = "This album has no songs yet";
+"artist.popular" = "Popular";
+"artist.releases" = "Albums and singles";
+
+/* Settings */
+"settings.library" = "Library";
+"settings.verified" = "Name and address verified when connecting";
+"settings.playback" = "Playback";
+"settings.quality.standard" = "128 kbps";
+"settings.quality.standard_hint" = "Saves data; suits mobile networks.";
+"settings.quality.lossless" = "Lossless";
+"settings.quality.lossless_hint" = "FLAC 16-bit/44.1 kHz, about 1 Mbps, when the original is lossless. Devices that can't play FLAC get 320 kbps.";
+"settings.quality.high" = "320 kbps";
+"settings.quality.high_hint" = "Up to 320 kbps when the release has it.";
+"settings.autoplay" = "Play the next song automatically";
+"settings.autoplay_hint" = "Keep playing the next song in an album or playlist.";
+"settings.record_history" = "Record listening history";
+"settings.record_history_hint" = "Powers Recently played and Listening history.";
+"settings.devices" = "Devices";
+"settings.account" = "Account";
+"settings.account_hint" = "Change your name, email or picture in Settings on the library's website.";
+"settings.legal" = "Legal";
+"legal.terms" = "Terms of use";
+"legal.terms_hint" = "What you agree to when using this library";
+"legal.privacy" = "Privacy policy";
+"legal.privacy_hint" = "What is stored, what it is used for and who sees it";
+"join.consent" = "By creating an account, you agree to the [Terms of use](legal://terms) and confirm you have read the [Privacy policy](legal://privacy).";
+"settings.version" = "Indie House for %1$@, version %2$@";
+
+/* Errors */
+"error.tls" = "Couldn't make a secure connection on this device. Check TLS support and certificates.";
+"error.network" = "Couldn't reach the server. Check your connection and try again.";
+"error.generic" = "Connection failed. Try again.";
+"error.not_found" = "Page not found.";
+"error.load_title" = "Couldn't load this page";
+"error.manifest_address" = "Enter the HTTPS address of your Indie House library.";
+"error.manifest_invalid" = "The library returned invalid connection details.";
+"error.manifest_mismatch" = "Library %1$@ announces a different address: %2$@. Fix INSTANCE_BASE_URL and STREAM_JWT_ISSUER on the server.";
+"error.manifest_version" = "The library announces an invalid minimum app version.";
+"error.app_too_old" = "This library needs app version %@ or later.";
+"error.audio_length" = "The audio file changed length while playing.";
+"error.keychain" = "Couldn't save the session to the Keychain.";
+"error.identity_changed" = "The library at this address has a different identity now.";
+"error.connect_first" = "Connect to a library first.";
+"error.identity_mismatch" = "The library's identity changed. Logging in is paused to protect your account.";
+"error.not_connected" = "Not connected to a library.";
+"error.login_again" = "Log in to the library again.";
+"error.stream_no_response" = "No response from the stream server.";
+"error.stream_http" = "The stream server returned HTTP %1$ld%2$@.";
+"error.stream_range" = "The stream server returned an invalid byte range.";
+"error.session_invalid" = "The server returned an invalid session.";
+"error.session_expired" = "Your session expired.";
+"error.session_bad" = "Your session isn't valid. Log in again.";
+"error.https_required" = "The library must use HTTPS.";
+"error.no_response" = "No response from the library.";
+"error.redirect" = "The library redirected the request, so the connection stopped.";
+"error.request_failed" = "Request failed (%ld).";

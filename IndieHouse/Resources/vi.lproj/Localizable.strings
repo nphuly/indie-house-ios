@@ -1,0 +1,288 @@
+/* Indie House iOS strings, Vietnamese (default). Read through L() in Localization.swift.
+   Wording follows indie-house-server/docs/vi/design-system.md and the Leap client (res/values/strings.xml). */
+
+/* Shared */
+"common.back" = "Quay lại";
+"common.cancel" = "Huỷ";
+"common.retry" = "Thử lại";
+"common.see_all" = "Xem tất cả";
+"common.clear" = "Xoá";
+"common.untitled" = "Chưa đặt tên";
+"common.selected" = "%@, đang chọn";
+"common.labelled" = "%1$@: %2$@";
+"common.pair" = "%1$@, %2$@";
+"common.read_more" = "Đọc thêm";
+"common.show_less" = "Thu gọn";
+"common.about" = "Giới thiệu";
+"common.saved" = "Đã lưu";
+"artist.unknown" = "Nghệ sĩ chưa rõ";
+"kind.album" = "Album";
+"kind.artist" = "Nghệ sĩ";
+"kind.song" = "Bài hát";
+"count.song.one" = "%ld bài";
+"count.song.other" = "%ld bài";
+"count.song_long.one" = "%ld bài hát";
+"count.song_long.other" = "%ld bài hát";
+"count.album.one" = "%ld album";
+"count.album.other" = "%ld album";
+"count.artist.one" = "%ld nghệ sĩ";
+"count.artist.other" = "%ld nghệ sĩ";
+"count.more_songs.one" = "Xem thêm %ld bài";
+"count.more_songs.other" = "Xem thêm %ld bài";
+
+/* Navigation and language */
+"tab.home" = "Trang chủ";
+"tab.search" = "Tìm kiếm";
+"tab.browse" = "Khám phá";
+"tab.library" = "Thư viện";
+"account.settings" = "Tài khoản và cài đặt";
+"settings.title" = "Cài đặt";
+"language.label" = "Ngôn ngữ";
+"language.vi" = "Tiếng Việt";
+"language.en" = "English";
+"language.hint" = "Chỉ áp dụng trên máy này.";
+
+/* Start-up, connect and sign-in */
+"startup.opening" = "Đang mở thư viện…";
+"startup.failed" = "Không mở được thư viện";
+"library.change" = "Đổi thư viện";
+"session.expired" = "Phiên đăng nhập đã hết hạn. Đăng nhập lại để nghe tiếp.";
+"connect.title" = "Kết nối thư viện";
+"connect.lede" = "Quét mã QR ở mục Kết nối thư viện trong trang quản trị, hoặc nhập địa chỉ HTTPS của thư viện.";
+"connect.address" = "Địa chỉ thư viện";
+"connect.button" = "Kết nối";
+"connect.checking" = "Đang kiểm tra…";
+"connect.scan" = "Quét mã QR";
+"connect.note" = "Chỉ kết nối qua HTTPS. Bạn sẽ xác nhận tên và địa chỉ thư viện trước khi đăng nhập.";
+"connect.confirm_title" = "Kết nối tới %@?";
+"connect.confirm_body" = "%@\n\nChỉ tiếp tục nếu đây đúng là thư viện Indie House của bạn.";
+"login.title" = "Đăng nhập";
+"login.lede" = "Dùng tài khoản Indie House của bạn.";
+"join.title" = "Tham gia thư viện";
+"join.lede" = "Nhập mã mời bạn nhận được, rồi đặt tên và mật khẩu cho tài khoản mới.";
+"login.invite_code" = "Mã mời";
+"login.invite_hint" = "Mã bạn nhận được";
+"login.name" = "Tên hiển thị";
+"login.name_hint" = "Tên của bạn";
+"login.email" = "Email";
+"login.email_hint" = "ban@example.com";
+"login.password" = "Mật khẩu";
+"login.show_password" = "Hiện mật khẩu";
+"login.hide_password" = "Ẩn mật khẩu";
+"login.submit" = "Đăng nhập";
+"login.busy" = "Đang đăng nhập…";
+"join.submit" = "Tạo tài khoản";
+"join.busy" = "Đang tạo tài khoản…";
+"login.have_invite" = "Tôi có mã mời";
+"login.have_account" = "Tôi đã có tài khoản";
+"login.need_email_password" = "Nhập email và mật khẩu.";
+"login.need_invite_name" = "Nhập mã mời và tên hiển thị.";
+
+/* QR scanner */
+"qr.title" = "Quét mã QR kết nối";
+"qr.hint" = "Mở trang quản trị Indie House, tìm mục Kết nối thư viện rồi đưa mã vào khung.";
+"qr.camera_failed" = "Không mở được camera";
+"qr.camera_hint" = "Quay lại và nhập địa chỉ HTTPS của thư viện để kết nối thủ công.";
+
+/* Player */
+"player.open" = "Mở trình phát";
+"player.minimize" = "Thu nhỏ trình phát";
+"player.mini_failed" = "Không phát được. Chạm nút phát để thử lại.";
+"player.playing_from" = "Đang phát từ";
+"player.playing_from_label" = "Đang phát từ %@";
+"player.now_playing" = "Đang phát";
+"player.play" = "Phát";
+"player.pause" = "Tạm dừng";
+"player.play_label" = "Phát %@";
+"player.pause_label" = "Tạm dừng %@";
+"player.previous" = "Bài trước";
+"player.next" = "Bài tiếp theo";
+"player.shuffle" = "Phát ngẫu nhiên";
+"player.shuffle_off" = "Tắt phát ngẫu nhiên";
+"player.repeat" = "Lặp lại";
+"player.repeat_off" = "Lặp lại: tắt";
+"player.repeat_all" = "Lặp lại: tất cả";
+"player.repeat_one" = "Lặp lại: một bài";
+"player.queue" = "Hàng đợi";
+"player.track_options" = "Tuỳ chọn bài hát";
+"player.failed" = "Không phát được bài này. Chạm nút phát để thử lại.";
+"player.failed_network" = "Không phát được bài này. Kiểm tra kết nối rồi thử lại.";
+"player.seek" = "Vị trí phát";
+"player.seek_position" = "Vị trí %1$@ trên %2$@";
+"player.quality.auto" = "128 kbps";
+"player.quality.standard" = "128 kbps";
+"player.quality.high" = "320 kbps";
+"player.quality.lossless" = "320 kbps";
+"player.format.flac" = "FLAC · lossless";
+"player.lossless_unsupported" = "Máy này không phát được bản lossless, đang phát 320 kbps.";
+"player.queue_now" = "Đang phát, %@";
+"player.queue_empty" = "Không còn bài nào phía sau. Chọn một album hoặc playlist để phát tiếp.";
+
+/* Song menu and playlists */
+"menu.add_to_playlist" = "Thêm vào playlist";
+"menu.play_next" = "Phát tiếp theo";
+"menu.will_play_next" = "Sẽ phát tiếp: %@";
+"menu.go_album" = "Đi tới album";
+"menu.go_artist" = "Đi tới nghệ sĩ";
+"menu.remove_from_playlist" = "Xoá khỏi playlist này";
+"playlist.new" = "Playlist mới";
+"playlist.public" = "Công khai";
+"playlist.private" = "Riêng tư";
+"playlist.added" = "Đã thêm vào “%@”";
+"playlist.removed" = "Đã xoá khỏi playlist";
+"playlist.edit" = "Sửa playlist";
+"playlist.create" = "Tạo playlist";
+"playlist.create_note" = "Đặt tên, thêm mô tả nếu muốn và chọn ai được xem.";
+"playlist.create_hint" = "Đặt tên và chọn ai được xem";
+"playlist.name" = "Tên playlist";
+"playlist.name_hint" = "Ví dụ: Nhạc chạy bộ";
+"playlist.description" = "Mô tả";
+"playlist.optional" = "Không bắt buộc";
+"playlist.public_hint" = "Mọi người trong thư viện đều xem được.";
+"playlist.save_changes" = "Lưu thay đổi";
+"playlist.create_and_add" = "Tạo và thêm bài";
+"playlist.saving" = "Đang lưu…";
+"playlist.creating" = "Đang tạo…";
+"playlist.name_too_short" = "Tên cần ít nhất 2 ký tự.";
+"playlist.saved" = "Đã lưu playlist";
+"playlist.created" = "Đã tạo “%@”";
+"playlist.delete_title" = "Xoá playlist?";
+"playlist.delete_body" = "“%@” sẽ bị xoá vĩnh viễn. Bài hát vẫn còn trong thư viện.";
+"playlist.delete" = "Xoá playlist";
+"playlist.deleted" = "Đã xoá playlist";
+"playlist.a11y" = "Playlist %@";
+"playlist.kind_public" = "Playlist công khai";
+"playlist.kind_private" = "Playlist riêng tư";
+"playlist.empty_title" = "Playlist này đang trống";
+"playlist.empty_body" = "Mở menu của một bài hát rồi chọn Thêm vào playlist.";
+"playlist.find_songs" = "Tìm bài hát";
+
+/* Devices and account */
+"devices.hint" = "Bạn có thể thu hồi quyền đăng nhập của từng thiết bị.";
+"devices.none" = "Chưa có thiết bị mobile nào đang đăng nhập.";
+"devices.unknown" = "Thiết bị mobile";
+"devices.used" = "Dùng %@";
+"devices.revoke" = "Thu hồi";
+"devices.revoke_title" = "Thu hồi thiết bị này?";
+"devices.revoke_body" = "Thiết bị sẽ phải đăng nhập lại. Nếu đó là chiếc iPhone này, bạn sẽ quay về màn đăng nhập.";
+"devices.revoked" = "Đã thu hồi phiên mobile.";
+"account.logout" = "Đăng xuất";
+"account.logout_title" = "Đăng xuất khỏi iPhone?";
+"account.logout_body" = "Nhạc đang phát sẽ dừng. Kết nối thư viện vẫn được giữ để lần sau đăng nhập nhanh hơn.";
+"library.change_title" = "Đổi thư viện?";
+"library.change_body" = "Thao tác này đăng xuất và xoá kết nối tới %@ trên máy này.";
+
+/* Time */
+"time.unknown" = "chưa rõ";
+"time.now" = "vừa xong";
+"time.minutes.one" = "%ld phút trước";
+"time.minutes.other" = "%ld phút trước";
+"time.hours.one" = "%ld giờ trước";
+"time.hours.other" = "%ld giờ trước";
+"time.days.one" = "%ld ngày trước";
+"time.days.other" = "%ld ngày trước";
+"duration.seconds" = "%ld giây";
+"duration.minutes" = "%ld phút";
+"duration.hours_minutes" = "%1$ld giờ %2$ld phút";
+
+/* Home */
+"greeting.morning" = "Chào buổi sáng";
+"greeting.noon" = "Chào buổi trưa";
+"greeting.afternoon" = "Chào buổi chiều";
+"greeting.evening" = "Chào buổi tối";
+"home.recent" = "Nghe gần đây";
+"home.most_played" = "Nghe nhiều nhất";
+"home.popular" = "Nghe nhiều";
+"home.open_album" = "Mở album";
+"home.new_albums" = "Album mới";
+"home.artists" = "Nghệ sĩ";
+"home.empty_title" = "Chưa có bài hát nào";
+"home.empty_body" = "Bài hát sẽ hiện ở đây khi quản trị viên tải nhạc lên.";
+
+/* Search */
+"search.placeholder" = "Tìm bài hát, nghệ sĩ, album";
+"search.clear_query" = "Xoá từ khoá";
+"search.failed" = "Không tìm được lúc này";
+"search.recent" = "Tìm kiếm gần đây";
+"search.genres" = "Thể loại";
+"search.start_title" = "Tìm bài hát";
+"search.start_body" = "Tìm theo tên bài, nghệ sĩ, album hoặc thể loại. Gõ không dấu cũng được.";
+"search.no_results_title" = "Không tìm thấy “%@”";
+"search.no_results_body" = "Kiểm tra chính tả hoặc thử từ khoá khác.";
+"search.filter.all" = "Tất cả";
+"search.filter.songs" = "Bài hát";
+"search.filter.artists" = "Nghệ sĩ";
+"search.filter.albums" = "Album";
+"search.context" = "Tìm “%@”";
+"search.top_result" = "Kết quả phù hợp nhất";
+
+/* Browse, library and detail pages */
+"browse.new_tracks" = "Mới thêm";
+"browse.albums" = "Album";
+"browse.artists" = "Nghệ sĩ";
+"browse.no_albums" = "Chưa có album nào";
+"browse.no_artists" = "Chưa có nghệ sĩ nào";
+"browse.load_more" = "Tải thêm";
+"browse.loading" = "Đang tải…";
+"browse.end" = "Đã hiện hết %@";
+"library.playlists" = "Playlist";
+"library.history" = "Lịch sử nghe";
+"library.history_empty_title" = "Chưa có lịch sử nghe";
+"library.history_empty_body" = "Bài bạn nghe trên Leap, iPhone hoặc web sẽ hiện ở đây.";
+"album.empty" = "Album này chưa có bài hát";
+"artist.popular" = "Phổ biến";
+"artist.releases" = "Album và đĩa đơn";
+
+/* Settings */
+"settings.library" = "Thư viện";
+"settings.verified" = "Đã xác minh tên và địa chỉ khi kết nối";
+"settings.playback" = "Phát nhạc";
+"settings.quality.standard" = "128 kbps";
+"settings.quality.standard_hint" = "Tiết kiệm dữ liệu, hợp với mạng di động.";
+"settings.quality.lossless" = "Lossless";
+"settings.quality.lossless_hint" = "FLAC 16-bit/44,1 kHz, khoảng 1 Mbps, khi bản gốc là lossless. Nếu máy không phát được FLAC thì nghe 320 kbps.";
+"settings.quality.high" = "320 kbps";
+"settings.quality.high_hint" = "Tới 320 kbps khi bản phát hành có sẵn.";
+"settings.autoplay" = "Tự phát bài tiếp theo";
+"settings.autoplay_hint" = "Phát tiếp bài kế trong album hoặc playlist.";
+"settings.record_history" = "Ghi lịch sử nghe";
+"settings.record_history_hint" = "Dùng cho mục Nghe gần đây và Lịch sử nghe.";
+"settings.devices" = "Thiết bị";
+"settings.account" = "Tài khoản";
+"settings.account_hint" = "Đổi tên, email hoặc ảnh đại diện trong Cài đặt trên trang web của thư viện.";
+"settings.legal" = "Pháp lý";
+"legal.terms" = "Điều khoản sử dụng";
+"legal.terms_hint" = "Những gì bạn đồng ý khi dùng thư viện này";
+"legal.privacy" = "Chính sách quyền riêng tư";
+"legal.privacy_hint" = "Dữ liệu nào được lưu, dùng vào việc gì và ai thấy";
+"join.consent" = "Khi tạo tài khoản, bạn đồng ý với [Điều khoản sử dụng](legal://terms) và đã đọc [Chính sách quyền riêng tư](legal://privacy).";
+"settings.version" = "Indie House cho %1$@, bản %2$@";
+
+/* Errors */
+"error.tls" = "Không tạo được kết nối bảo mật trên máy này. Kiểm tra hỗ trợ TLS và chứng chỉ.";
+"error.network" = "Không kết nối được máy chủ. Kiểm tra mạng rồi thử lại.";
+"error.generic" = "Kết nối thất bại. Thử lại.";
+"error.not_found" = "Không tìm thấy trang này.";
+"error.load_title" = "Không tải được trang";
+"error.manifest_address" = "Nhập địa chỉ HTTPS của thư viện Indie House.";
+"error.manifest_invalid" = "Thư viện trả về thông tin kết nối không hợp lệ.";
+"error.manifest_mismatch" = "Thư viện %1$@ công bố địa chỉ khác: %2$@. Cần sửa INSTANCE_BASE_URL và STREAM_JWT_ISSUER trên máy chủ.";
+"error.manifest_version" = "Thư viện khai báo phiên bản app tối thiểu không hợp lệ.";
+"error.app_too_old" = "Thư viện yêu cầu app phiên bản %@ trở lên.";
+"error.audio_length" = "Độ dài tệp nhạc thay đổi trong lúc phát.";
+"error.keychain" = "Không lưu được phiên đăng nhập vào Keychain.";
+"error.identity_changed" = "Thư viện ở địa chỉ này đã đổi danh tính.";
+"error.connect_first" = "Hãy kết nối thư viện trước.";
+"error.identity_mismatch" = "Danh tính thư viện đã thay đổi. App đã tạm dừng đăng nhập.";
+"error.not_connected" = "Chưa kết nối thư viện.";
+"error.login_again" = "Hãy đăng nhập lại vào thư viện.";
+"error.stream_no_response" = "Không có phản hồi từ máy chủ phát nhạc.";
+"error.stream_http" = "Máy chủ phát nhạc trả về HTTP %1$ld%2$@.";
+"error.stream_range" = "Máy chủ phát nhạc trả về đoạn dữ liệu không hợp lệ.";
+"error.session_invalid" = "Phiên đăng nhập trả về không hợp lệ.";
+"error.session_expired" = "Phiên đăng nhập đã hết hạn.";
+"error.session_bad" = "Phiên đăng nhập không hợp lệ. Hãy đăng nhập lại.";
+"error.https_required" = "Thư viện phải dùng HTTPS.";
+"error.no_response" = "Không có phản hồi từ thư viện.";
+"error.redirect" = "Thư viện chuyển hướng yêu cầu. Kết nối đã dừng.";
+"error.request_failed" = "Yêu cầu thất bại (%ld).";
